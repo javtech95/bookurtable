@@ -7,12 +7,6 @@
   height: 80px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
 
 .App-title {
   font-size: 1.5em;
@@ -25,4 +19,40 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: url("https://www.transparenttextures.com/patterns/fabric-1-dark.png");
+}
+
+.jumbotron h1 {
+  color: black;
+  font-size: 85px;
+  font-family: 'Times New Roman', cursive;
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 251, 0.27);
+}
+
+.btn {
+  color: rgba(144, 43, 29, 0.99) !important;
+  background-color: rgba(229, 231, 229, 0.66);
+  border-color: #755c32;
+}
+
+.panel-default {
+  background-color: rgba(78, 52, 19, .3);
+  font-family: 'Tajawal', sans-serif;
+}
+
+.panel-heading {
+  color: #f6eee1 !important;
+  background-color: rgba(78, 52, 19, .3) !important;
+  border-bottom: 1px solid #755c32 !important;
+}
+
+a {
+  color: whitesmoke;
 }
